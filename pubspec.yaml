@@ -1,0 +1,29 @@
+name: try_on_me
+description: Try On Me — AI video try-on trial app. Screenshot se product dhoondho, khud pe try karo.
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.11.1
+  video_player: ^2.9.2
+  image_picker: ^1.1.2
+  http: ^1.2.2
+  url_launcher: ^6.3.1
+  shared_preferences: ^2.3.3
+  path_provider: ^2.1.4
+  share_plus: ^10.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sample_result.mp4
